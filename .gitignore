@@ -1,0 +1,67 @@
+# ----------------------
+# ENVIRONMENT VARIABLES
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# PYTHON CACHE FILES
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ----------------------
+# VIRTUAL ENVIRONMENTS
+# ----------------------
+venv/
+ENV/
+env/
+.venv/
+
+# ----------------------
+# LOGS AND TEMP FILES
+# ----------------------
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ----------------------
+# STREAMLIT & FAISS CACHE
+# ----------------------
+.streamlit/
+.faiss_index/
+faiss_index/
+
+# ----------------------
+# DATA FILES (OPTIONAL)
+# ----------------------
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# ----------------------
+# UPLOADED FILES
+# ----------------------
+uploads/
+*.pdf
+*.docx
+*.png
+*.jpg
+*.jpeg
+
+# ----------------------
+# SYSTEM-SPECIFIC FILES
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE CONFIGS
+# ----------------------
+.vscode/
+.idea/
