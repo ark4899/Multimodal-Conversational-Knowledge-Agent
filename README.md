@@ -4,7 +4,7 @@ The Multimodal Conversational Knowledge Agent is an intelligent assistant that p
 It combines OCR, speech-to-text, and Retrieval-Augmented Generation (RAG) techniques to enable natural, human-like academic or informational Q&A experiences.
 
 
-Key Features
+**Key Features**
 
 🗂️ Multimodal Input — Supports text, image (OCR), and speech input modes.
 
@@ -19,13 +19,13 @@ Key Features
 ⚙️ Streamlit UI — Simple, user-friendly web interface for uploading documents and chatting with the assistant.
 
 
-💡 Usage
+**💡 Usage**
 
 Upload your document (PDF, image, or text).
 Optionally record or upload voice input for speech-based queries.
 Ask questions — the agent retrieves relevant content, interprets it, and generates concise, contextual answers.
 
-🧮 Example Use Cases
+**🧮 Example Use Cases**
 
 Academic Q&A based on lecture notes or study material
 Conversational document retrieval
