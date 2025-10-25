@@ -7,11 +7,12 @@ It combines OCR, speech-to-text, and Retrieval-Augmented Generation (RAG) techni
 **Key Features**
 
 🗂️ Multimodal Input — Supports text, image (OCR), and speech input modes.
-🔍 Contextual Retrieval — Uses LangChain + FAISS for document search and semantic context matching.
-🧾 OCR Processing — Extracts text from images or scanned notes using Tesseract OCR.
-🎙️ Speech-to-Text — Converts voice queries into text using SpeechRecognition API.
-💬 Conversational Memory — Retains session context for smooth multi-turn interactions.
-⚙️ Streamlit UI — Simple, user-friendly web interface for uploading documents and chatting with the assistant.
+
+*🔍 Contextual Retrieval — Uses LangChain + FAISS for document search and semantic context matching.
+*🧾 OCR Processing — Extracts text from images or scanned notes using Tesseract OCR.
+*🎙️ Speech-to-Text — Converts voice queries into text using SpeechRecognition API.
+*💬 Conversational Memory — Retains session context for smooth multi-turn interactions.
+*⚙️ Streamlit UI — Simple, user-friendly web interface for uploading documents and chatting with the assistant.
 
 
 **💡 Usage**
