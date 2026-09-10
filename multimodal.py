@@ -12,10 +12,10 @@ from pathlib import Path
 
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_community.chat_models import ChatOpenAI
-from langchain.chains import ConversationalRetrievalChain
+from langchain_openai import ChatOpenAI
+from langchain_classic.chains import ConversationalRetrievalChain
 from dotenv import load_dotenv
 from streamlit_mic_recorder import mic_recorder
 import easyocr
