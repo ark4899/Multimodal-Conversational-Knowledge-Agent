@@ -24,6 +24,9 @@ import easyocr
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+if "OPENAI_API_KEY" in st.secrets:
+  os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
 # ---------------------- Configure Tesseract ----------------------
 pytesseract.pytesseract.tesseract_cmd = shutil.which("tesseract") or r"C:\\Users\\akansha.khandare\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe"
 
