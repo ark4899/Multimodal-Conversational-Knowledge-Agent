@@ -12,7 +12,7 @@ gTTS
 streamlit
 pytesseract
 moviepy
-opencv-python
+opencv-python-headless
 numpy
 langchain-openai
 langchain-community
